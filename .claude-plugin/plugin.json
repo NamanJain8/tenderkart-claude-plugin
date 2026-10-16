@@ -8,5 +8,6 @@
     "url": "https://tenderkart.in"
   },
   "license": "MIT",
-  "homepage": "https://tenderkart.in/mcp-setup"
+  "homepage": "https://tenderkart.in/mcp-setup",
+  "privacyPolicyUrl": "https://tenderkart.in/privacy"
 }
