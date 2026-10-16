@@ -1,0 +1,12 @@
+{
+  "name": "tenderkart",
+  "displayName": "TenderKart",
+  "version": "1.0.0",
+  "description": "Find, review, and track Indian government tenders using TenderKart's authenticated search, saved filters, tender details, and documents.",
+  "author": {
+    "name": "Autopilot Labs Private Limited",
+    "url": "https://tenderkart.in"
+  },
+  "license": "MIT",
+  "homepage": "https://tenderkart.in/mcp-setup"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tenderkart": {
+      "type": "http",
+      "url": "https://tenderkart.in/mcp"
+    }
+  }
+}
