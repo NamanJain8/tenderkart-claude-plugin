@@ -9,5 +9,9 @@
   },
   "license": "MIT",
   "homepage": "https://tenderkart.in/mcp-setup",
-  "privacyPolicyUrl": "https://tenderkart.in/privacy"
+  "repository": "https://github.com/NamanJain8/tenderkart-claude-plugin",
+  "documentationUrl": "https://tenderkart.in/mcp-setup",
+  "supportUrl": "https://tenderkart.in/contact",
+  "privacyPolicyUrl": "https://tenderkart.in/privacy",
+  "termsOfServiceUrl": "https://tenderkart.in/terms"
 }
