@@ -1,8 +1,8 @@
 {
   "name": "tenderkart",
-  "displayName": "TenderKart",
-  "version": "1.0.0",
-  "description": "Find, review, and track Indian government tenders using TenderKart's authenticated search, saved filters, tender details, and documents.",
+  "displayName": "Tenderkart",
+  "version": "1.2.0",
+  "description": "Find, review, and track Indian government tenders using Tenderkart's authenticated search, saved filters, tender details, and documents.",
   "author": {
     "name": "Autopilot Labs Private Limited",
     "url": "https://tenderkart.in"
