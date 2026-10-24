@@ -52,7 +52,7 @@ Read the tender's documents as described below, starting with the notice invitin
 
 Copy document IDs exactly as returned. Never reconstruct or shorten an ID.
 
-Use `get_tender` with Tenderkart's internal tender UUID. Use `list_tender_documents` before `prepare_tender_document_download`, and pass only document IDs returned for that tender. To read a document yourself: if you can fetch URLs and open files (a shell, as in Claude Code or Codex), download it from the `prepare_tender_document_download` link and read the file; this is preferred. If you cannot, use `read_tender_document`, which returns the text page by page (PDF including scanned pages, Word, Excel, and every file inside a zip); pass `next_start` to read on, and cite the file and page. When the user wants a file, give them the link and say it expires after 30 minutes.
+Use `get_tender` with Tenderkart's internal tender UUID. Use `list_tender_documents` before `read_tender_document` or `prepare_tender_document_download`, and pass only document IDs returned for that tender. To read a document's text, call `read_tender_document`; it returns the text page by page (PDF including scanned pages, Word, Excel, and every file inside a zip). Pass `next_start` to read on, and cite the file and page. `prepare_tender_document_download` returns a temporary link to the original file: give it to the user when they want the file, and say it expires after 30 minutes.
 
 ## Allowances
 
