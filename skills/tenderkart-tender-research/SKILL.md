@@ -52,7 +52,7 @@ Read the tender's documents as described below, starting with the notice invitin
 
 Copy document IDs exactly as returned. Never reconstruct or shorten an ID.
 
-Use `get_tender` with Tenderkart's internal tender UUID. Use `list_tender_documents` first, and pass only document IDs returned for that tender. In Claude, read a document through `prepare_tender_document_download`, and use `read_tender_document` only when that does not work. In ChatGPT, use `read_tender_document`. It returns the text page by page (PDF including scanned pages, Word, Excel, and every file inside a zip); pass `next_start` to read on, and cite the file and page. Download links expire after 30 minutes; when the user wants the file, give them the link and say so.
+Use `get_tender` with Tenderkart's internal tender UUID. Use `list_tender_documents` first, and pass only document IDs returned for that tender. To read a document, choose between `prepare_tender_document_download` and `read_tender_document` as their tool descriptions say. `read_tender_document` returns the text page by page (PDF including scanned pages, Word, Excel, and every file inside a zip); pass `next_start` to read on, and cite the file and page. Download links expire after 30 minutes; when the user wants the file, give them the link and say so.
 
 ## Allowances
 
